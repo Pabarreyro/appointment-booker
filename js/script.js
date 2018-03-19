@@ -1,8 +1,33 @@
-var add = function(number1, number2) {
-	return number1 + number2;
+// var add = function(number1, number2) {
+// 	return number1 + number2;
+// };
+//
+// var subtract = function(number1, number2) {
+// 	return number1 - number2;
+// };
+//
+// var multiply = function(number1, number2) {
+// 	return number1 * number2;
+// };
+//
+// var divide = function(number1, number2) {
+// 	return number1 / number2;
+// };
+
+// var bmi = function(massLb, heightIn) {
+//   return (massLb / heightIn**2) * 703;
+// };
+
+var inputTempCelsius = parseInt(prompt("Enter the temperature in celsius: "));
+var inputTempFahrenheit = parseInt(prompt("Enter the temperature in fahrenheit: "));
+
+var celsiusToFahrenheit = function(tempCelsius) {
+  return ((9/5)*tempCelsius) + 32;
 };
 
-var inputNumber1 = parseInt(prompt("Enter number: "));
-var inputNumber2 = parseInt(prompt("Enter another number: "));
+var fahrenheitToCelsius = function(tempFahrenheit) {
+  return (tempFahrenheit - 32)*(5/9);
+};
 
-alert(add(inputNumber1,inputNumber2));
+alert("The result is " + celsiusToFahrenheit(inputTempCelsius).toFixed(1) + " degrees fahrenheit");
+alert("The result is " + fahrenheitToCelsius(inputTempFahrenheit).toFixed(1) + " degrees celsius");
