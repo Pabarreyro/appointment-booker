@@ -42,7 +42,7 @@ $(document).ready(function() {
   $("form#divide").submit(function(event) {
     var number1 = parseInt($("#divide1").val());
     var number2 = parseInt($("#divide2").val());
-    var result= divide(number1,number2);
+    var result = divide(number1,number2);
     $("#output p").text(result);
     event.preventDefault();
   });
