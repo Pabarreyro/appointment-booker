@@ -21,9 +21,9 @@ $(document).ready(function() {
     var result= add(number1,number2);
     $("#output p").text(result);
     event.preventDefault();
-  })
-
+  });
 });
+
 
 
 

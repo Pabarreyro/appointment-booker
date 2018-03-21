@@ -22,7 +22,7 @@ _No known bugs on current version._
 
 ## Support and contact details
 
-_email pabarreyro[at]gmail.com or brenda.leigh.franco[at]gmail.com_
+_email pabarreyro[at]gmail.com_
 
 ## Technologies Used
 
